@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.beyondh.cases.member.MemberCases</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.beyondh.cases.member.MemberCases</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.beyondh.cases.member.html">com.beyondh.cases.member</a> &gt; MemberCases</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">22</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">12.647s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">acquireMemberPointCase[0]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:6185,&quot;Remark&quot;:&quot;AcquirePointCase&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:41&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;11&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>1.186s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">acquireMemberPointCase[1]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:5786,&quot;Remark&quot;:&quot;AcquirePointCase&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:41&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;0&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.411s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">acquireMemberPointCase[2]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:5847,&quot;Remark&quot;:&quot;AcquirePointCase&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:41&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;3&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.411s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">acquireMemberPointCase[3]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:3022,&quot;Remark&quot;:&quot;AcquirePointCase&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:41&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;4&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.415s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">acquireValueCase[0]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Value&quot;:13,&quot;Remark&quot;:&quot;AcquireValueCase&quot;,&quot;OrgId&quot;:660247752032257,&quot;MoneyWay&quot;:&quot;D&quot;,&quot;MoneyChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.766s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[0]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:9,&quot;Remark&quot;:&quot;氦岔绰疙氖鸵剖卫怖慌&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;0&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.676s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[1]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:72,&quot;Remark&quot;:&quot;绒镁汹适雄体抬苏氮艘纶&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;2&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.426s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[2]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:71,&quot;Remark&quot;:&quot;越塞拇蛋据酒量乍菩侠呈菏&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;3&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.427s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[3]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:16,&quot;Remark&quot;:&quot;涤值羌问遥影幕齐滥戏匙辽艇&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;4&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.456s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[4]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:19,&quot;Remark&quot;:&quot;惟荧娟驶袱蹈卉擞或束裤罩货推&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;5&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.420s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[5]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:28,&quot;Remark&quot;:&quot;炕濒酚掠适采秉臼涛客澈汾漠亏焊&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;6&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.425s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[6]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:54,&quot;Remark&quot;:&quot;厢框筏猛哇锹砂槐波措谢嘶栏寇如渣&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;7&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.429s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[7]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:39,&quot;Remark&quot;:&quot;荡蓟擅开晶位院马给屋宏菩狙役辕相账&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;9&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.407s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[8]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:50,&quot;Remark&quot;:&quot;孽历疼晕混妒愉禹赫踏仗痹框韵心即佬藩&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;10&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.404s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">consumeMemberPointCase[9]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;Point&quot;:72,&quot;Remark&quot;:&quot;涯诀粉潦衰卢咆糟案十整科雀函圾唆狞酞垫&quot;,&quot;CreateTime&quot;:&quot;2017-11-10 14:22:44&quot;,&quot;CreateBy&quot;:&quot;superadmin&quot;,&quot;OrgId&quot;:660247752032257,&quot;PointWay&quot;:&quot;11&quot;,&quot;PointChannel&quot;:&quot;A&quot;}, 5574833310518526037706871141)</td>
+<td>0.417s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">exchangeGiftCase[0]({&quot;MemberId&quot;:&quot;101517429&quot;,&quot;OrgId&quot;:660247752032257,&quot;Recipients&quot;:&quot;华鹤轩&quot;,&quot;Remark&quot;:&quot;ExchangeGiftCase&quot;}, 5574833310518526037706871141)</td>
+<td>0.839s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getGiftItemsCase[0]({&quot;FromPoint&quot;:0,&quot;ToPoint&quot;:1000,&quot;PageIndex&quot;:1,&quot;PageSize&quot;:1000}, [Ljava.lang.String;@737e2f51)</td>
+<td>0.086s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getGiftItemsCase[1]({&quot;FromPoint&quot;:0,&quot;ToPoint&quot;:20,&quot;GiftCategory&quot;:&quot;Toy&quot;,&quot;PageIndex&quot;:1,&quot;PageSize&quot;:1000}, [Ljava.lang.String;@c30f8a3)</td>
+<td>0.076s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getGiftItemsCase[2]({&quot;FromPoint&quot;:20,&quot;ToPoint&quot;:100,&quot;GiftCategory&quot;:&quot;Present&quot;,&quot;PageIndex&quot;:1,&quot;PageSize&quot;:1000}, [Ljava.lang.String;@16732fbb)</td>
+<td>0.078s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerMembersCase[0]({&quot;Name&quot;:&quot;疏那则儡&quot;,&quot;Mobile&quot;:&quot;13010626066&quot;,&quot;IdType&quot;:&quot;C01&quot;,&quot;IdNo&quot;:&quot;266526923547318168&quot;,&quot;MemberLevel&quot;:&quot;A&quot;,&quot;Password&quot;:&quot;p@ssw0rd&quot;})</td>
+<td>1.887s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerMembersCase[1]({&quot;Name&quot;:&quot;表务铂簇&quot;,&quot;Mobile&quot;:&quot;13000429217&quot;,&quot;IdType&quot;:&quot;C01&quot;,&quot;IdNo&quot;:&quot;167640658332931202&quot;,&quot;MemberLevel&quot;:&quot;A&quot;,&quot;Password&quot;:&quot;p@ssw0rd&quot;,&quot;OpenId&quot;:&quot;8109820142893058414397940868&quot;})</td>
+<td>1.030s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerMembersCase[2]({&quot;Name&quot;:&quot;骨皇胡屿&quot;,&quot;Mobile&quot;:&quot;13087952286&quot;,&quot;IdType&quot;:&quot;C01&quot;,&quot;IdNo&quot;:&quot;273061738542098713&quot;,&quot;MemberLevel&quot;:&quot;A&quot;,&quot;SalesId&quot;:&quot;superadmin&quot;,&quot;Password&quot;:&quot;p@ssw0rd&quot;,&quot;Question&quot;:&quot;臃页瓣握玲颈造刻漓稽&quot;,&quot;Answer&quot;:&quot;沥中喉炒&quot;,&quot;OpenId&quot;:&quot;1911402138092213780051778578&quot;})</td>
+<td>0.975s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.5-rc-2</a> at 2017-11-10 14:22:59</p>
+</div>
+</div>
+</body>
+</html>

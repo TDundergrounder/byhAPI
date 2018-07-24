@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenAPIFullTest" parallel="classes" thread-count="7">
+    <test name="FullTest">
+        <classes>
+            <class name="com.beyondh.cases.bill.BillCases"/>
+            <class name="com.beyondh.cases.message.MesssageCases"/>
+            <class name="com.beyondh.cases.cashingbill.CashingBillCases"/>
+            <class name="com.beyondh.cases.coupon.CouponCase"/>
+            <class name="com.beyondh.cases.hotel.HotelCases"/>
+            <class name="com.beyondh.cases.member.MemberCases"/>
+            <class name="com.beyondh.cases.order.OrderCases"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,36 @@
+group 'publicAPITest'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.testng:testng:6.10'
+    testCompile 'commons-logging:commons-logging:1.1.1'
+    testCompile('org.springframework:spring-aop:4.3.11.RELEASE')
+    testCompile('org.springframework:spring-context:4.3.11.RELEASE')
+    testCompile('org.springframework:spring-test:4.3.11.RELEASE')
+    testCompile('org.apache.httpcomponents:httpclient:4.5.3')
+    testCompile('com.google.code.gson:gson:2.6.2')
+    testCompile('dom4j:dom4j:1.6.1')
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+test{
+    useTestNG()
+}
+
+
+task testReport(type:TestReport){
+    destinationDir = file("$buildDir/APIReport")
+    reportOn test
+}
+

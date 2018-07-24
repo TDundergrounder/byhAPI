@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Run>
+    <Environment name ="Debug">
+        <Module name ="CommonData">
+            <Data Key="OrgNO" Value="X015538"/>
+            <Data Key="OrgId" Value="2147483644"/>
+            <Data Key="OrgName" Value="测试门店1"/>
+            <Data Key="OwnerId" Value="2"/>
+            <!--PMS Data-->
+            <Data Key="RoomTypeTR" Value="TR"/>
+            <Data Key="RoomTypeTRPrice" Value="100"/>
+            <!--PMS AR account Data-->
+            <Data Key="ArAccountName" Value="中国石油上海金山分公司信用账户"/>
+            <Data Key="CompanyId" Value="342670358921226"/>
+            <!--PMS  default check in Data-->
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="400"/>
+            <Data Key="OrignPrice" Value="400"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <!-- Member infor-->
+            <Data Key ="MemberId" Value="000406787"/>
+            <Data Key ="MemberName" Value="胡锦涛"/>
+            <Data Key ="MemberMobile" Value="13088888888"/>
+            <Data Key ="MemberPassword" Value="123456"/>
+            <Data Key ="MemberIDType" Value="C01"/>
+            <Data Key ="CardNo" Value="533527198909210238"/>
+            <Data Key ="Level" Value="I"/>
+            <Data Key ="Gender" Value="2"/>
+            <Data Key ="MemberCardId" Value="0026KT67QG002"/>
+            <Data Key ="MemberOpenId" Value="3307867110703227412706120130"/>
+            <!--Channel Infor-->
+            <Data Key ="Channel" Value="Web"/>
+            <!--AR Contractor -->
+            <Data Key ="ARContractor" Value="中国石油上海金山分公司"/>
+            <Data Key ="ARContractorType" Value="Contractor"/>
+            <!--Agent Contractor -->
+            <Data Key ="AgentContractor" Value="上海携程国际有限公司"/>
+            <Data Key ="AgentContractorType" Value="Agent"/>
+
+            <Data Key ="CashingBillIdMemberValue" Value="2147483400"/>
+            <Data Key ="ItemCategory" Value="A"/>
+
+            <Data Key ="CashingBillIdGoodValue" Value="2147483404"/>
+            <Data Key ="GoodName" Value="恒大冰泉"/>
+            <Data Key ="GoodPrice" Value="3.6"/>
+            <Data Key ="GoodId" Value="2147483601"/>
+
+            <Data Key ="BusinessLogicAutoNoShowSwitchKey" Value="AutoNoShowSwitch"/>
+            <Data Key ="BusinessLogicAutoNoShowSwitchValue" Value="False"/>
+            <Data Key ="BusinessLogicAutoNoShowSwitchDescription" Value="保留时间自动NoShow"/>
+            <Data Key ="BusinessLogicCategory" Value="BusinessLogic"/>
+
+            <Data Key ="PrintPrintDepositReceiptKey" Value="PrintDepositReceipt"/>
+            <Data Key ="PrintPrintDepositReceiptValue" Value="false"/>
+            <Data Key ="PrintPrintDepositReceiptDescription" Value="默认打印押金单"/>
+            <Data Key ="PrintOrgCategory" Value="Print"/>
+            <!--Default Order-->
+            <Data Key ="Liason" Value="黎明"/>
+            <!--MemberLevel-->
+            <Data Key ="LevelGold" Value="B"/>
+            <Data Key ="LevelCommon" Value="A"/>
+            <Data Key="WeChatBankType" Value="CFT"/>
+        </Module>
+        <Module name ="OrderData">
+            <!-- Order-->
+            <Data Key="RoomType" Value="TR"/>
+            <Data Key="ActualPrice" Value="100"/>
+            <Data Key="OrignPrice" Value="100"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="000016221"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="TR"/>
+            <Data Key="CheckInRoomTypeName" Value="标间"/>
+            <Data Key="CheckInActualPrice" Value="158"/>
+            <Data Key="CheckInOrignPrice" Value="158"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="532628197907137256"/>
+            <!--Change Stay-->
+            <Data Key ="ExtendStayReason" Value="接口自动化续住"/>
+            <Data Key ="UnderStayReason" Value="接口自动化提前离店"/>
+            <Data Key ="CheckoutReason" Value="接口自动化当日离店"/>
+            <!--Hotel-->
+            <Data Key ="CleanScore" Value="2"/>
+            <Data Key ="FacilityScore" Value="3"/>
+            <Data Key ="ServiceScore" Value="4"/>
+            <Data Key ="RoomRemark" Value="接口自动化房间备注"/>
+            <Data Key ="Hour1Price" Value="50"/>
+            <Data Key ="GoodsIds" Value="468054303178753"/>
+            <Data Key ="cliqueGoodsIds" Value="468054303178753"/>
+        </Module>
+        <Module name ="CheckInData">
+            <!-- CheckIn search-->
+            <Data Key="CustomerNameNoExist" Value="No EXIST"/>
+            <Data Key="CustomerIdNumberNoExist" Value="12345679"/>
+            <Data Key="CustomerRoomNumberNoExist" Value="9999"/>
+        </Module>
+        <Module name ="ArBillData">
+            <!-- Add new ArAccount, the 'Skip' value indicate if we need to add the ar account -->
+            <Data Key="Skip" Value="True"/>
+            <!-- Add new ArAccount -->
+            <Data Key="ArAccountType" Value="Credit"/>
+            <Data Key="Ceiling" Value="12000"/>
+            <Data Key="VerfiyTermInDay" Value="60"/>
+            <Data Key="AcceptNegativeDeposit" Value="true"/>
+            <Data Key="CompanyId" Value="342670358921226"/>
+            <!-- Add new AR item-->
+            <Data Key="ArAccountId" Value="342670564442115"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="198"/>
+            <!-- Cancel AR-->
+            <Data Key="CancelMemo" Value="公测接口取消AR帐"/>
+        </Module>
+        <Module name ="BillData">
+            <!-- Add new AR Bill-->
+            <Data Key="ARSubItemType" Value="C9100"/>
+            <Data Key="IsDeposit" Value="false"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="250"/>
+            <!-- Cash Bill-->
+            <Data Key="CashSubItemType" Value="C9110"/>
+            <Data Key="CashMemo" Value="人民币押金,接口自动化"/>
+            <!-- Bank Bill-->
+            <Data Key="BankSubItemType" Value="C9120"/>
+            <Data Key="BankMemo" Value="银行入账,接口自动化"/>
+            <Data Key="BankKey" Value="中国人民银行"/>
+            <Data Key="BankCardNumber" Value="6228480402637874213"/>
+            <!-- Member Value Bill-->
+            <Data Key="MemberValueSubItemType" Value="C9130"/>
+            <Data Key="MemberValueMemo" Value="储值卡入账,接口自动化"/>
+            <!-- Check Bill-->
+            <Data Key="CheckSubItemType" Value="C9160"/>
+            <Data Key="CheckMemo" Value="支票入账,接口自动化"/>
+            <Data Key="CheckBankKey" Value="中国人民银行"/>
+            <Data Key="CheckNO" Value="04159226"/>
+            <!-- Cash return Bill-->
+            <Data Key="CashReturnSubItemType" Value="C9111"/>
+            <Data Key="CashReturnMemo" Value="人民币现金退款,接口自动化"/>
+            <!-- Room Fee Adjustment Bill-->
+            <Data Key="AdjustRoomFeeSubItemType" Value="D1001"/>
+            <Data Key="AdjustRoomFeeMemo" Value="房费调整,接口自动化"/>
+            <!-- Fee Violate Agreement Bill-->
+            <Data Key="FeeViolateAgreementSubItemType" Value="D1003"/>
+            <Data Key="FeeViolateAgreementMemo" Value="房费违约金，接口自动化"/>
+            <!-- Fee Phone Bill-->
+            <Data Key="FeePhoneSubItemType" Value="D2000"/>
+            <Data Key="FeePhoneMemo" Value="电话费，接口自动化"/>
+            <!-- Washing Bill-->
+            <Data Key="FeeWashingSubItemType" Value="D4000"/>
+            <Data Key="FeeWashingMemo" Value="洗衣费，接口自动化"/>
+            <!-- Compensation Bill-->
+            <Data Key="FeeCompensationSubItemType" Value="D5000"/>
+            <Data Key="FeeCompensationMemo" Value="赔偿费，接口自动化"/>
+            <!-- Commercial Center Bill-->
+            <Data Key="FeeCommercialCenterSubItemType" Value="D6000"/>
+            <Data Key="FeeCommercialCenterMemo" Value="商务中心费，接口自动化"/>
+            <!-- Smallware Bill-->
+            <Data Key="SmallwareSubItemType" Value="D6500"/>
+            <Data Key="SmallwareMemo" Value="小商品费用，接口自动化"/>
+            <!-- Member Card Bill-->
+            <Data Key="MemberCardSubItemType" Value="D7500"/>
+            <Data Key="MemberCardMemo" Value="会员卡费用，接口自动化"/>
+            <!-- Breakfast Bill-->
+            <Data Key="BreakfastSubItemType" Value="D6110"/>
+            <Data Key="BreakfastMemo" Value="早餐费用，接口自动化"/>
+            <!-- Miscellaneous Bill-->
+            <Data Key="MiscellaneousSubItemType" Value="D8000"/>
+            <Data Key="MiscellaneousMemo" Value="杂项费用，接口自动化"/>
+            <!-- Online pay Bill-->
+            <Data Key="OnlinePay" Value="WeChat"/>
+            <!-- Online pay Bill-->
+            <Data Key="VoucherSubItemType" Value="C9200"/>
+            <Data Key="VoucherMemo" Value="抵用券，接口自动化"/>
+        </Module>
+        <Module name ="BusinessConfigData">
+            <Data Key="AutoNoShowSwitch" Value="AutoNoShowSwitch"/>
+            <Data Key="SurchargeBufferTimeSpan" Value="SurchargeBufferTimeSpan"/>
+            <Data Key="DepositReceiptConfig" Value="DepositReceiptConfig"/>
+            <Data Key="SmallWareWithRepertory" Value="SmallWareWithRepertory"/>
+            <Data Key="PayCreditTypes" Value="PayCreditTypes"/>
+            <Data Key="CashingBillDebitTypes" Value="CashingBillDebitTypes"/>
+            <!-- owner category -->
+            <Data Key="BusinessLogic" Value="BusinessLogic"/>
+            <Data Key="HotelType" Value="HotelType"/>
+            <Data Key="OwnerCreditTypes" Value="OwnerCreditTypes"/>
+            <Data Key="OwnerDebitTypes" Value="OwnerDebitTypes"/>
+            <!-- Org category -->
+            <Data Key="OrgCreditTypes" Value="OrgCreditTypes"/>
+            <Data Key="OrgDebitTypes" Value="OrgDebitTypes"/>
+            <Data Key="Channel" Value="Channel"/>
+            <Data Key="HourSurcharge" Value="HourSurcharge"/>
+        </Module>
+        <Module name ="ConfigureData">
+            <Data Key="Skip" Value="True"/>
+            <Data Key="UserName" Value="王晓"/>
+        </Module>
+        <Module name ="ItemData">
+            <Data Key="ItemName" Value="接送服务"/>
+            <Data Key="ItemDescription" Value="旅客接送服务"/>
+        </Module>
+        <Module name ="LodgmentData">
+            <!-- Order-->
+            <Data Key="RoomType" Value="SR"/>
+            <Data Key="ActualPrice" Value="208"/>
+            <Data Key="OrignPrice" Value="208"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="000100633"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="DT"/>
+            <Data Key="CheckInRoomTypeName" Value="标间"/>
+            <Data Key="CheckInActualPrice" Value="158"/>
+            <Data Key="CheckInOrignPrice" Value="158"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="532628197907137256"/>
+        </Module>
+        <Module name ="MessageData">
+            <Data Key="AuthorId" Value="superadmin"/>
+            <Data Key="AuthorName" Value="超级管理员"/>
+            <Data Key="MessageFormat" Value="Text"/>
+            <Data Key="MessageTypeNotice" Value="Notice"/>
+            <Data Key="MessageTypeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeCheckoutRemind" Value="CheckoutRemind"/>
+            <Data Key="MessageTypeWeChat" Value="WeChat"/>
+            <Data Key="MessageTypeWeChatReply" Value="WeChatReply"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddOrderNotice"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeNoticeCheckoutNotice" Value="CheckoutNotice"/>
+        </Module>
+        <Module name ="SubscriptionData">
+        </Module>
+        <Module name ="TelephonePhoneData">
+        </Module>
+        <Module name ="SalesData">
+        </Module>
+        <Module name ="SecurityData">
+            <Data Key="UserName" Value="beyondh"/>
+            <Data Key="Password" Value="beyondh"/>
+        </Module>
+        <Module name ="StatisticsData">
+            <Data Key="Channel" Value="Web"/>
+        </Module>
+        <Module name ="CrmData">
+            <Data Key="Member_New_ChangeWay" Value="D"/>
+            <Data Key="ItemCategory" Value="A"/>
+            <Data Key="PointWay" Value="11"/>
+            <Data Key="MoneyWay" Value="D"/>
+            <Data Key="UpgradeOldLevel" Value="A"/>
+            <Data Key="UpgradeNewLevel" Value="B"/>
+            <Data Key="Channel" Value="A"/>
+            <Data Key="MemberOperator" Value="superadmin"/>
+            <Data Key="Password" Value="p@ssw0rd"/>
+            <Data Key="GiftToy" Value="Toy"/>
+            <Data Key="GiftPresent" Value="Present"/>
+            <Data Key="GiftToyTaidi" Value="泰迪"/>
+            <Data Key="GiftPresentNotebook" Value="笔记本"/>
+        </Module>
+        <Module name ="CouponData">
+        <Data Key="TemplateId" Value="468003891838978"/>
+        <Data Key="CouponAmount" Value="20"/>
+        </Module>
+        <Module name ="MiscellaneousData">
+            <Data Key="FeePhoneNumber" Value="13065659898"/>
+            <Data Key="Fee" Value="15"/>
+            <Data Key="Debit" Value="D2002"/>
+        </Module>
+        <Module name ="WeChatData">
+            <Data Key="WeChatOnlineCredit" Value="C9240"/>
+            <Data Key="WeChatOpenId" Value="oF6ruszbjML3LyoR8Lu30yTIJnh1"/>
+            <!--Online Payment Config-->
+            <Data Key="OnlinePaymentConfig" Value="WeChatToken"/>
+            <Data Key="WeChatToken" Value="WeChatToken"/>
+            <Data Key="WeChatPartnerId" Value="WeChatPartnerId"/>
+            <Data Key="WeChatPartnerKey" Value="WeChatPartnerKey"/>
+            <Data Key="WeChatAppId" Value="WeChatAppId"/>
+            <Data Key="WeChatAppSecret" Value="WeChatAppSecret"/>
+            <Data Key="WeChatPaySignKey" Value="WeChatPaySignKey"/>
+            <Data Key="WeChatCertFilePath" Value="WeChatCertFilePath"/>
+            <Data Key="WeChatVersion" Value="WeChatVersion"/>
+            <Data Key="WeChatAgentAppId" Value="WeChatAgentAppId"/>
+            <Data Key="WeChatSubPartnerId" Value="WeChatSubPartnerId"/>
+        </Module>
+    </Environment>
+    <Environment name ="Integrated">
+        <Module name ="CommonData">
+            <Data Key="OrgId" Value="2147483644"/>
+            <Data Key="OrgNO" Value="X015538"/>
+            <Data Key="OrgName" Value="测试门店1"/>
+            <Data Key="OwnerId" Value="1"/>
+            <!--PMS Data-->
+            <!--PMS AR account Data-->
+            <Data Key="ArAccountName" Value="中国石化上海分公司信用账户"/>
+            <Data Key="CompanyId" Value="467957709225985"/>
+            <!--PMS check in Data-->
+            <Data Key="CustomerName" Value="华鹤轩"/>
+            <Data Key="CustomerMobile" Value="13099999999"/>
+            <Data Key="CustomerIdNumber" Value="451025197801204796"/>
+            <Data Key="CheckInRoomType" Value="TD"/>
+            <Data Key="CheckInRoomTypeName" Value="TD-TD"/>
+            <Data Key="CheckInActualPrice" Value="200"/>
+            <Data Key="CheckInOrignPrice" Value="200"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C01"/>
+            <!-- Member infor-->
+            <Data Key ="MemberId" Value="000416744"/>
+            <Data Key ="MemberMobile" Value="13099999999"/>
+            <Data Key ="MemberPassword" Value="123456"/>
+            <Data Key ="MemberIDType" Value="C01"/>
+            <Data Key ="CardNo" Value="451025197801204796"/>
+            <Data Key ="Level" Value="B"/>
+            <Data Key ="Gender" Value="2"/>
+            <Data Key ="MemberCardId" Value="002G4YJOLM001"/>
+            <!--Channel Infor-->
+            <Data Key ="Channel" Value="Web"/>
+            <!--AR Contractor -->
+            <Data Key ="ARContractor" Value="信用测试公司"/>
+            <Data Key ="ARContractorType" Value="Contractor"/>
+            <!--Agent Contractor -->
+            <Data Key ="AgentContractor" Value="携程"/>
+            <Data Key ="AgentContractorType" Value="Agent"/>
+        </Module>
+        <Module name ="OrderData">
+            <!-- Order-->
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="400"/>
+            <Data Key="OrignPrice" Value="400"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <Data Key ="PrePaymentChange" Value="None"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="000416744"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="TD"/>
+            <Data Key="CheckInRoomTypeName" Value="TD-TD"/>
+            <Data Key="CheckInActualPrice" Value="200"/>
+            <Data Key="CheckInOrignPrice" Value="200"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="451025197801204796"/>
+            <!--Change Stay-->
+            <Data Key ="ExtendStayReason" Value="接口自动化续住"/>
+            <Data Key ="UnderStayReason" Value="接口自动化提前离店"/>
+            <Data Key ="CheckoutReason" Value="接口自动化当日离店"/>
+            <!--Hotel-->
+            <Data Key ="CleanScore" Value="2"/>
+            <Data Key ="FacilityScore" Value="3"/>
+            <Data Key ="ServiceScore" Value="4"/>
+            <Data Key ="RoomRemark" Value="接口自动化房间备注"/>
+            <Data Key ="Hour1Price" Value="50"/>
+            <Data Key ="MarketPrice" Value="Market"/>
+            <Data Key ="LastDayPrice" Value="LastDay"/>
+            <Data Key ="FirstDayPrice" Value="FirstDay"/>
+            <Data Key ="TopPrice" Value="Top"/>
+            <Data Key ="BottomPrice" Value="Bottom"/>
+            <Data Key ="AveragePrice" Value="Average"/>
+            <Data Key ="GoodsIds" Value="2147483606"/>
+            <Data Key ="cliqueGoodsIds" Value="2147483610"/>
+            <Data Key ="orgGoodsIdsPrice" Value="5.2"/>
+            <Data Key ="cliqueGoodsIdsPrice" Value="3.3"/>
+        </Module>
+        <Module name ="CheckInData">
+            <!-- CheckIn search-->
+            <Data Key="CustomerNameNoExist" Value="No EXIST"/>
+            <Data Key="CustomerIdNumberNoExist" Value="12345679"/>
+            <Data Key="CustomerRoomNumberNoExist" Value="9999"/>
+        </Module>
+        <Module name ="ArBillData">
+            <!-- Add new ArAccount, the 'Skip' value indicate if we need to add the ar account -->
+            <Data Key="Skip" Value="True"/>
+            <!-- Add new ArAccount -->
+            <Data Key="ArAccountType" Value="Credit"/>
+            <Data Key="Ceiling" Value="1000000"/>
+            <Data Key="VerfiyTermInDay" Value="60"/>
+            <Data Key="AcceptNegativeDeposit" Value="true"/>
+            <Data Key="CompanyId" Value="1073741823"/>
+            <!-- Add new AR item-->
+            <Data Key="ArAccountId" Value="1073741822"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="198"/>
+            <!-- Cancel AR-->
+            <Data Key="CancelMemo" Value="公测接口取消AR帐"/>
+        </Module>
+        <Module name ="BillData">
+            <!-- Add new AR Bill-->
+            <Data Key="ARSubItemType" Value="C9100"/>
+            <Data Key="IsDeposit" Value="false"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="250"/>
+            <!-- Cash Bill-->
+            <Data Key="CashSubItemType" Value="C9110"/>
+            <Data Key="CashMemo" Value="人民币押金,接口自动化"/>
+            <!-- Bank Bill-->
+            <Data Key="BankSubItemType" Value="C9120"/>
+            <Data Key="BankMemo" Value="银行入账,接口自动化"/>
+            <Data Key="BankKey" Value="中国人民银行"/>
+            <Data Key="BankCardNumber" Value="6228480402637874213"/>
+            <!-- Member Value Bill-->
+            <Data Key="MemberValueSubItemType" Value="C9130"/>
+            <Data Key="MemberValueMemo" Value="储值卡入账,接口自动化"/>
+            <!-- Check Bill-->
+            <Data Key="CheckSubItemType" Value="C9160"/>
+            <Data Key="CheckMemo" Value="支票入账,接口自动化"/>
+            <Data Key="CheckBankKey" Value="中国人民银行"/>
+            <Data Key="CheckNO" Value="04159226"/>
+            <!-- Cash return Bill-->
+            <Data Key="CashReturnSubItemType" Value="C9111"/>
+            <Data Key="CashReturnMemo" Value="人民币现金退款,接口自动化"/>
+            <!-- Room Fee Adjustment Bill-->
+            <Data Key="AdjustRoomFeeSubItemType" Value="D1001"/>
+            <Data Key="AdjustRoomFeeMemo" Value="房费调整,接口自动化"/>
+            <!-- Fee Violate Agreement Bill-->
+            <Data Key="FeeViolateAgreementSubItemType" Value="D1003"/>
+            <Data Key="FeeViolateAgreementMemo" Value="房费违约金，接口自动化"/>
+            <!-- Fee Phone Bill-->
+            <Data Key="FeePhoneSubItemType" Value="D2000"/>
+            <Data Key="FeePhoneMemo" Value="电话费，接口自动化"/>
+            <!-- Washing Bill-->
+            <Data Key="FeeWashingSubItemType" Value="D4000"/>
+            <Data Key="FeeWashingMemo" Value="洗衣费，接口自动化"/>
+            <!-- Compensation Bill-->
+            <Data Key="FeeCompensationSubItemType" Value="D5000"/>
+            <Data Key="FeeCompensationMemo" Value="赔偿费，接口自动化"/>
+            <!-- Commercial Center Bill-->
+            <Data Key="FeeCommercialCenterSubItemType" Value="D6000"/>
+            <Data Key="FeeCommercialCenterMemo" Value="商务中心费，接口自动化"/>
+            <!-- Smallware Bill-->
+            <Data Key="SmallwareSubItemType" Value="D6500"/>
+            <Data Key="SmallwareMemo" Value="小商品费用，接口自动化"/>
+            <!-- Member Card Bill-->
+            <Data Key="MemberCardSubItemType" Value="D7500"/>
+            <Data Key="MemberCardMemo" Value="会员卡费用，接口自动化"/>
+            <!-- Breakfast Bill-->
+            <Data Key="BreakfastSubItemType" Value="D6110"/>
+            <Data Key="BreakfastMemo" Value="早餐费用，接口自动化"/>
+            <!-- Miscellaneous Bill-->
+            <Data Key="MiscellaneousSubItemType" Value="D8000"/>
+            <Data Key="MiscellaneousMemo" Value="杂项费用，接口自动化"/>
+            <!-- Online pay Bill-->
+            <Data Key="OnlinePay" Value="WeChat"/>
+            <!-- Online pay Bill-->
+            <Data Key="VoucherSubItemType" Value="C9200"/>
+            <Data Key="VoucherMemo" Value="抵用券，接口自动化"/>
+        </Module>
+        <Module name ="BusinessConfigData">
+            <Data Key="AutoNoShowSwitch" Value="AutoNoShowSwitch"/>
+            <Data Key="SurchargeBufferTimeSpan" Value="SurchargeBufferTimeSpan"/>
+            <Data Key="DepositReceiptConfig" Value="DepositReceiptConfig"/>
+            <Data Key="SmallWareWithRepertory" Value="SmallWareWithRepertory"/>
+            <Data Key="PayCreditTypes" Value="PayCreditTypes"/>
+            <Data Key="CashingBillDebitTypes" Value="CashingBillDebitTypes"/>
+            <!-- owner category -->
+            <Data Key="BusinessLogic" Value="BusinessLogic"/>
+            <Data Key="HotelType" Value="HotelType"/>
+            <Data Key="OwnerCreditTypes" Value="OwnerCreditTypes"/>
+            <Data Key="OwnerDebitTypes" Value="OwnerDebitTypes"/>
+            <!-- Org category -->
+            <Data Key="OrgCreditTypes" Value="OrgCreditTypes"/>
+            <Data Key="OrgDebitTypes" Value="OrgDebitTypes"/>
+            <Data Key="Channel" Value="Channel"/>
+            <Data Key="HourSurcharge" Value="HourSurcharge"/>
+        </Module>
+        <Module name ="ConfigureData">
+            <Data Key="Skip" Value="True"/>
+            <Data Key="UserName" Value="王晓"/>
+        </Module>
+        <Module name ="ItemData">
+            <Data Key="ItemName" Value="接送服务"/>
+            <Data Key="ItemDescription" Value="旅客接送服务"/>
+        </Module>
+        <Module name ="LodgmentData">
+            <!-- Order-->
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="400"/>
+            <Data Key="OrignPrice" Value="400"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="000416744"/>
+            <Data Key ="MemberCardId" Value="002G4YJOLM001"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="TD"/>
+            <Data Key="CheckInRoomTypeName" Value="标准间"/>
+            <Data Key="CheckInActualPrice" Value="200"/>
+            <Data Key="CheckInOrignPrice" Value="20"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="451025197801204796"/>
+        </Module>
+        <Module name ="MessageData">
+            <Data Key="AuthorId" Value="superadmin"/>
+            <Data Key="AuthorName" Value="超级管理员"/>
+            <Data Key="MessageFormat" Value="Text"/>
+            <Data Key="MessageTypeNotice" Value="Notice"/>
+            <Data Key="MessageTypeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeCheckoutRemind" Value="CheckoutRemind"/>
+            <Data Key="MessageTypeWeChat" Value="WeChat"/>
+            <Data Key="MessageTypeWeChatReply" Value="WeChatReply"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddOrderNotice"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeNoticeCheckoutNotice" Value="CheckoutNotice"/>
+            <Data Key="PushMessageToPmsFrontendNotice" Value="PushMessageToPmsFrontendNotice"/>
+        </Module>
+        <Module name ="SubscriptionData">
+        </Module>
+        <Module name ="TelephonePhoneData">
+        </Module>
+        <Module name ="SalesData">
+            <Data Key="PromotionRoom" Value ="DW" />
+            <Data Key="PromotionPrice" Value ="258" />
+        </Module>
+        <Module name ="SecurityData">
+            <Data Key="UserName" Value="superadmin"/>
+            <Data Key="Password" Value="bullshit"/>
+        </Module>
+        <Module name ="StatisticsData">
+            <Data Key="Channel" Value="Web"/>
+        </Module>
+        <Module name ="CrmData">
+            <Data Key="UpgradeWay" Value="C"/>
+            <Data Key ="OldLevel" Value="A"/>
+            <Data Key="UpgradeChannel" Value="A"/>
+            <Data Key="NewLevel" Value="B"/>
+            <Data Key="ModifyBy" Value="superadmin"/>
+            <Data Key="UpgradeChineseName" Value="普卡"/>
+        </Module>
+        <Module name ="MiscellaneousData">
+            <Data Key="FeePhoneNumber" Value="13065659898"/>
+            <Data Key="Fee" Value="15"/>
+            <Data Key="Debit" Value="D2002"/>
+        </Module>
+        <Module name ="WeChatData">
+            <Data Key="Wechat" Value="Wechat"/>
+            <Data Key="WechatWelcomes" Value="Welcomes"/>
+            <Data Key="MemberLevel" Value="MemberLevel"/>
+            <Data Key="WeChatOnlineCredit" Value="C9240"/>
+            <Data Key="WeChatOpenId" Value="5574833310518526037706871141"/>
+            <Data Key="WeChatBankType" Value="CFT"/>
+            <!--Online Payment Config-->
+            <Data Key="OnlinePaymentConfig" Value="OnlinePaymentConfig"/>
+            <Data Key="WeChatToken" Value="WeChatToken"/>
+            <Data Key="WeChatPartnerId" Value="WeChatPartnerId"/>
+            <Data Key="WeChatPartnerKey" Value="WeChatPartnerKey"/>
+            <Data Key="WeChatAppId" Value="WeChatAppId"/>
+            <Data Key="WeChatAppSecret" Value="WeChatAppSecret"/>
+            <Data Key="WeChatPaySignKey" Value="WeChatPaySignKey"/>
+            <Data Key="WeChatCertFilePath" Value="WeChatCertFilePath"/>
+            <Data Key="WeChatVersion" Value="WeChatVersion"/>
+            <Data Key="WeChatAgentAppId" Value="WeChatAgentAppId"/>
+            <Data Key="WeChatSubPartnerId" Value="WeChatSubPartnerId"/>
+            <!--Ali Payment Config-->
+            <Data Key="AlipayPartnerId" Value="AlipayPartnerId"/>
+            <Data Key="AlipayPartnerKey" Value="AlipayPartnerKey"/>
+            <Data Key="AlipayAccount" Value="AlipayAccount"/>
+            <!--Hotel Infor-->
+            <!--Hotel Infor-->
+            <Data Key="RT_RoomCount_Name" Value="DT"/>
+            <Data Key="RT_RoomPrice_Name" Value="DR"/>
+            <Data Key="RT_Normal_Price" Value="500"/>
+            <Data Key="RT_Normal" Value="非会员"/>
+            <Data Key="RT_NormalMember_Price" Value="168"/>
+            <Data Key ="Hour1Price" Value="50"/>
+            <Data Key ="RoomcountsActual" Value="5"/>
+            <!--SMS Message-->
+            <Data Key ="smsMobile" Value="13641709268"/>
+            <!--Order-->
+            <Data Key ="WechatPromotionRoomType" Value="TR"/>
+            <Data Key ="WechatPromotionRoomTypeName" Value="TR-TR"/>
+            <Data Key ="WechatPromotionPrice" Value="100"/>
+            <Data Key ="WechatCanlendarId" Value="620953860079617"/>
+            <!--CRM-->
+            <Data Key ="WechatMobileNotRegistered" Value="13074747474"/>
+            <Data Key ="WechatIdNoNotRegistered" Value="532300197305122898"/>
+            <Data Key ="WechatIdTypeNotRegistered" Value="C01"/>
+            <Data Key ="WechatEmailNotRegistered" Value="532300197305122898@yy.com"/>
+            <Data Key ="UpgradeWayWithCash" Value="D"/>
+            <Data Key ="CreatorName" Value="superadmin"/>
+        </Module>
+        <Module name ="Coupon">
+            <Data Key="TemplateId" Value="620955114176514"/>
+            <Data Key="SerialNo" Value="5037606722587042900"/>
+        </Module>
+        <Module name ="CashBill">
+            <Data Key="MemberBillId" Value="1"/>
+            <Data Key="MemberValueConfigId" Value="156"/>
+        </Module>
+    </Environment>
+    <Environment name ="Public">
+        <Module name ="CommonData">
+            <Data Key="OrgId" Value="660247752032257"/>
+            <Data Key="OrgNO" Value="0X352"/>
+            <Data Key="OrgName" Value="CPMS-API接口测试店"/>
+            <Data Key="OwnerId" Value="2016061330"/>
+            <!--PMS Data-->
+            <Data Key="RoomTypeTR" Value="TR"/>
+            <Data Key="RoomTypeTRPrice" Value="298"/>
+            <!--PMS AR account Data-->
+            <Data Key="ArAccountName" Value="中国石化上海分公司信用账户"/>
+            <Data Key="CompanyId" Value="467957709225985"/>
+            <!--PMS  default check in Data-->
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="248"/>
+            <Data Key="OrignPrice" Value="248"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <!-- Member infor-->
+            <Data Key ="MemberId" Value="101517429"/>
+            <Data Key ="MemberName" Value="华鹤轩"/>
+            <Data Key ="MemberMobile" Value="13099999999"/>
+            <Data Key ="MemberPassword" Value="123456"/>
+            <Data Key ="MemberIDType" Value="C01"/>
+            <Data Key ="CardNo" Value="451025197801204796"/>
+            <Data Key ="Level" Value="LA"/>
+            <Data Key ="Gender" Value="2"/>
+            <Data Key ="MemberCardId" Value="001UFI4MBJ00B"/>
+            <Data Key ="MemberOpenId" Value="5574833310518526037706871141"/>
+            <!--Cashing bill Infor-->
+            <Data Key ="CashingBillIdMemberValue" Value="660247919804422"/>
+            <Data Key ="ItemCategory" Value="A"/>
+            <Data Key ="CashingBillIdGoodValue" Value="660247919804418"/>
+            <Data Key ="GoodName" Value="冰红茶"/>
+            <Data Key ="GoodPrice" Value="5"/>
+            <Data Key ="GoodId" Value="660250285391873"/>
+
+            <Data Key ="BusinessLogicAutoNoShowSwitchKey" Value="AutoNoShowSwitch"/>
+            <Data Key ="BusinessLogicAutoNoShowSwitchValue" Value="true"/>
+            <Data Key ="BusinessLogicAutoNoShowSwitchDescription" Value="保留时间自动NoShow"/>
+            <Data Key ="BusinessLogicCategory" Value="BusinessLogic"/>
+
+            <Data Key ="PrintPrintDepositReceiptKey" Value="PrintDepositReceipt"/>
+            <Data Key ="PrintPrintDepositReceiptValue" Value="false"/>
+            <Data Key ="PrintPrintDepositReceiptDescription" Value="默认打印押金单"/>
+            <Data Key ="PrintOrgCategory" Value="Print"/>
+            <!--Default Order-->
+            <Data Key ="Liason" Value="黎明"/>
+            <!--MemberLevel-->
+            <Data Key ="LevelGold" Value="B"/>
+            <Data Key ="LevelCommon" Value="A"/>
+            <Data Key="WeChatBankType" Value="CFT"/>
+
+            <!--Channel Infor-->
+            <Data Key ="Channel" Value="Web"/>
+            <!--AR Contractor -->
+            <Data Key ="ARContractor" Value="中国石油上海分公司"/>
+            <Data Key ="ARContractorType" Value="Contractor"/>
+            <!--Agent Contractor -->
+            <Data Key ="AgentContractor" Value="上海携程国际有限公司"/>
+            <Data Key ="AgentContractorType" Value="Agent"/>
+            <Data Key ="Hour3Price" Value="50"/>
+        </Module>
+        <Module name ="OrderData">
+            <!-- Order-->
+            <Data Key="AvailablePromotion" Value="WebAPI豪园房型活动"/>
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="248"/>
+            <Data Key="OrignPrice" Value="248"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <Data Key ="PrePaymentChange" Value="None"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="101517429"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="TD"/>
+            <Data Key="CheckInRoomTypeName" Value="单人间"/>
+            <Data Key="CheckInActualPrice" Value="158"/>
+            <Data Key="CheckInOrignPrice" Value="158"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="451025197801204796"/>
+            <!--Change Stay-->
+            <Data Key ="ExtendStayReason" Value="接口自动化续住"/>
+            <Data Key ="UnderStayReason" Value="接口自动化提前离店"/>
+            <Data Key ="CheckoutReason" Value="接口自动化当日离店"/>
+            <!--Hotel-->
+            <Data Key ="CleanScore" Value="2"/>
+            <Data Key ="FacilityScore" Value="3"/>
+            <Data Key ="ServiceScore" Value="4"/>
+            <Data Key ="RoomRemark" Value="接口自动化房间备注"/>
+            <Data Key ="Hour1Price" Value="50"/>
+            <Data Key ="MarketPrice" Value="Market"/>
+            <Data Key ="LastDayPrice" Value="LastDay"/>
+            <Data Key ="FirstDayPrice" Value="FirstDay"/>
+            <Data Key ="TopPrice" Value="Top"/>
+            <Data Key ="BottomPrice" Value="Bottom"/>
+            <Data Key ="AveragePrice" Value="Average"/>
+            <Data Key ="GoodsIds" Value="468054303178753"/>
+            <Data Key ="cliqueGoodsIds" Value="468056719097858"/>
+            <Data Key ="orgGoodsIdsPrice" Value="5.00"/>
+            <Data Key ="cliqueGoodsIdsPrice" Value="0.01"/>
+        </Module>
+        <Module name ="CheckInData">
+            <!-- CheckIn search-->
+            <Data Key="CustomerNameNoExist" Value="No EXIST"/>
+            <Data Key="CustomerIdNumberNoExist" Value="12345679"/>
+            <Data Key="CustomerRoomNumberNoExist" Value="9999"/>
+        </Module>
+        <Module name ="ArBillData">
+            <!-- Add new ArAccount, the 'Skip' value indicate if we need to add the ar account -->
+            <Data Key="Skip" Value="True"/>
+            <!-- Add new ArAccount -->
+            <Data Key="ArAccountType" Value="Credit"/>
+            <Data Key="Ceiling" Value="12000"/>
+            <Data Key="VerfiyTermInDay" Value="60"/>
+            <Data Key="AcceptNegativeDeposit" Value="true"/>
+            <Data Key="CompanyId" Value="467957709225985"/>
+            <!-- Add new AR item-->
+            <Data Key="ArAccountId" Value="467966097833985"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="198"/>
+            <!-- Cancel AR-->
+            <Data Key="CancelMemo" Value="公测接口取消AR帐"/>
+        </Module>
+        <Module name ="BillData">
+            <!-- Add new AR Bill-->
+            <Data Key="ARSubItemType" Value="C9100"/>
+            <Data Key="IsDeposit" Value="false"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="250"/>
+            <!-- Cash Bill-->
+            <Data Key="CashSubItemType" Value="C9110"/>
+            <Data Key="CashMemo" Value="人民币押金,接口自动化"/>
+            <!-- Bank Bill-->
+            <Data Key="BankSubItemType" Value="C9120"/>
+            <Data Key="BankMemo" Value="银行入账,接口自动化"/>
+            <Data Key="BankKey" Value="中国人民银行"/>
+            <Data Key="BankCardNumber" Value="6228480402637874213"/>
+            <!-- Member Value Bill-->
+            <Data Key="MemberValueSubItemType" Value="C9130"/>
+            <Data Key="MemberValueMemo" Value="储值卡入账,接口自动化"/>
+            <!-- Check Bill-->
+            <Data Key="CheckSubItemType" Value="C9160"/>
+            <Data Key="CheckMemo" Value="支票入账,接口自动化"/>
+            <Data Key="CheckBankKey" Value="中国人民银行"/>
+            <Data Key="CheckNO" Value="04159226"/>
+            <!-- Cash return Bill-->
+            <Data Key="CashReturnSubItemType" Value="C9111"/>
+            <Data Key="CashReturnMemo" Value="人民币现金退款,接口自动化"/>
+            <!-- Room Fee Adjustment Bill-->
+            <Data Key="AdjustRoomFeeSubItemType" Value="D1001"/>
+            <Data Key="AdjustRoomFeeMemo" Value="房费调整,接口自动化"/>
+            <!-- Fee Violate Agreement Bill-->
+            <Data Key="FeeViolateAgreementSubItemType" Value="D1003"/>
+            <Data Key="FeeViolateAgreementMemo" Value="房费违约金，接口自动化"/>
+            <!-- Fee Phone Bill-->
+            <Data Key="FeePhoneSubItemType" Value="D2000"/>
+            <Data Key="FeePhoneMemo" Value="电话费，接口自动化"/>
+            <!-- Washing Bill-->
+            <Data Key="FeeWashingSubItemType" Value="D4000"/>
+            <Data Key="FeeWashingMemo" Value="洗衣费，接口自动化"/>
+            <!-- Compensation Bill-->
+            <Data Key="FeeCompensationSubItemType" Value="D5000"/>
+            <Data Key="FeeCompensationMemo" Value="赔偿费，接口自动化"/>
+            <!-- Commercial Center Bill-->
+            <Data Key="FeeCommercialCenterSubItemType" Value="D6000"/>
+            <Data Key="FeeCommercialCenterMemo" Value="商务中心费，接口自动化"/>
+            <!-- Smallware Bill-->
+            <Data Key="SmallwareSubItemType" Value="D6500"/>
+            <Data Key="SmallwareMemo" Value="小商品费用，接口自动化"/>
+            <!-- Member Card Bill-->
+            <Data Key="MemberCardSubItemType" Value="D7500"/>
+            <Data Key="MemberCardMemo" Value="会员卡费用，接口自动化"/>
+            <!-- Breakfast Bill-->
+            <Data Key="BreakfastSubItemType" Value="D6110"/>
+            <Data Key="BreakfastMemo" Value="早餐费用，接口自动化"/>
+            <!-- Miscellaneous Bill-->
+            <Data Key="MiscellaneousSubItemType" Value="D8000"/>
+            <Data Key="MiscellaneousMemo" Value="杂项费用，接口自动化"/>
+            <!-- Online pay Bill-->
+            <Data Key="OnlinePay" Value="WeChat"/>
+            <!-- Online pay Bill-->
+            <Data Key="VoucherSubItemType" Value="C9200"/>
+            <Data Key="VoucherMemo" Value="抵用券，接口自动化"/>
+        </Module>
+        <Module name ="BusinessConfigData">
+            <Data Key="AutoNoShowSwitch" Value="AutoNoShowSwitch"/>
+            <Data Key="SurchargeBufferTimeSpan" Value="SurchargeBufferTimeSpan"/>
+            <Data Key="DepositReceiptConfig" Value="DepositReceiptConfig"/>
+            <Data Key="SmallWareWithRepertory" Value="SmallWareWithRepertory"/>
+            <Data Key="PayCreditTypes" Value="PayCreditTypes"/>
+            <Data Key="CashingBillDebitTypes" Value="CashingBillDebitTypes"/>
+            <!-- owner category -->
+            <Data Key="BusinessLogic" Value="BusinessLogic"/>
+            <Data Key="HotelType" Value="HotelType"/>
+            <Data Key="OwnerCreditTypes" Value="OwnerCreditTypes"/>
+            <Data Key="OwnerDebitTypes" Value="OwnerDebitTypes"/>
+            <!-- Org category -->
+            <Data Key="OrgCreditTypes" Value="OrgCreditTypes"/>
+            <Data Key="OrgDebitTypes" Value="OrgDebitTypes"/>
+            <Data Key="Channel" Value="Channel"/>
+            <Data Key="HourSurcharge" Value="HourSurcharge"/>
+        </Module>
+        <Module name ="ConfigureData">
+            <Data Key="Skip" Value="True"/>
+            <Data Key="UserName" Value="王晓"/>
+        </Module>
+        <Module name ="ItemData">
+            <Data Key="ItemName" Value="接送服务"/>
+            <Data Key="ItemDescription" Value="旅客接送服务"/>
+        </Module>
+        <Module name ="LodgmentData">
+            <!-- Order-->
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="248"/>
+            <Data Key="OrignPrice" Value="248"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="101517429"/>
+            <Data Key ="MemberCardId" Value="001UFI4MBJ00B"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="TD"/>
+            <Data Key="CheckInRoomTypeName" Value="标准间"/>
+            <Data Key="CheckInActualPrice" Value="158"/>
+            <Data Key="CheckInOrignPrice" Value="158"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="451025197801204796"/>
+        </Module>
+        <Module name ="MessageData">
+            <Data Key="AuthorId" Value="superadmin"/>
+            <Data Key="AuthorName" Value="超级管理员"/>
+            <Data Key="MessageFormat" Value="Text"/>
+            <Data Key="MessageTypeNotice" Value="Notice"/>
+            <Data Key="MessageTypeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeCheckoutRemind" Value="CheckoutRemind"/>
+            <Data Key="MessageTypeWeChat" Value="WeChat"/>
+            <Data Key="MessageTypeWeChatReply" Value="WeChatReply"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddOrderNotice"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeNoticeCheckoutNotice" Value="CheckoutNotice"/>
+            <Data Key="PushMessageToPmsFrontendNotice" Value="PushMessageToPmsFrontendNotice"/>
+        </Module>
+        <Module name ="SubscriptionData">
+        </Module>
+        <Module name ="TelephonePhoneData">
+        </Module>
+        <Module name ="SalesData">
+            <Data Key="PromotionRoom" Value ="DS" />
+            <Data Key="PromotionPrice" Value ="878" />
+        </Module>
+        <Module name ="SecurityData">
+            <Data Key="UserName" Value="superadmin"/>
+            <Data Key="Password" Value="beyondhost2015"/>
+        </Module>
+        <Module name ="StatisticsData">
+            <Data Key="Channel" Value="Web"/>
+        </Module>
+        <Module name ="CrmData">
+            <Data Key="Member_New_ChangeWay" Value="D"/>
+            <Data Key="ItemCategory" Value="A"/>
+            <Data Key="PointWay" Value="11"/>
+            <Data Key="MoneyWay" Value="D"/>
+            <Data Key="UpgradeOldLevel" Value="A"/>
+            <Data Key="UpgradeNewLevel" Value="LA"/>
+            <Data Key="Channel" Value="A"/>
+            <Data Key="MemberOperator" Value="superadmin"/>
+            <Data Key="Password" Value="p@ssw0rd"/>
+            <Data Key="GiftToy" Value="Toy"/>
+            <Data Key="GiftPresent" Value="Present"/>
+            <Data Key="GiftToyTaidi" Value="泰迪"/>
+            <Data Key="GiftPresentNotebook" Value="笔记本"/>
+        </Module>
+        <Module name ="MiscellaneousData">
+            <Data Key="FeePhoneNumber" Value="13065659898"/>
+            <Data Key="Fee" Value="15"/>
+            <Data Key="Debit" Value="D2002"/>
+        </Module>
+        <Module name ="WeChatData">
+            <Data Key="Wechat" Value="Wechat"/>
+            <Data Key="WechatWelcomes" Value="Welcomes"/>
+            <Data Key="MemberLevel" Value="MemberLevel"/>
+            <Data Key="WeChatOnlineCredit" Value="C9240"/>
+            <Data Key="WeChatOpenId" Value="5574833310518526037706871141"/>
+            <Data Key="WeChatBankType" Value="CFT"/>
+            <!--Online Payment Config-->
+            <Data Key="OnlinePaymentConfig" Value="OnlinePaymentConfig"/>
+            <Data Key="WeChatToken" Value="WeChatToken"/>
+            <Data Key="WeChatPartnerId" Value="WeChatPartnerId"/>
+            <Data Key="WeChatPartnerKey" Value="WeChatPartnerKey"/>
+            <Data Key="WeChatAppId" Value="WeChatAppId"/>
+            <Data Key="WeChatAppSecret" Value="WeChatAppSecret"/>
+            <Data Key="WeChatPaySignKey" Value="WeChatPaySignKey"/>
+            <Data Key="WeChatCertFilePath" Value="WeChatCertFilePath"/>
+            <Data Key="WeChatVersion" Value="WeChatVersion"/>
+            <Data Key="WeChatAgentAppId" Value="WeChatAgentAppId"/>
+            <Data Key="WeChatSubPartnerId" Value="WeChatSubPartnerId"/>
+            <!--Ali Payment Config-->
+            <Data Key="AlipayPartnerId" Value="AlipayPartnerId"/>
+            <Data Key="AlipayPartnerKey" Value="AlipayPartnerKey"/>
+            <Data Key="AlipayAccount" Value="AlipayAccount"/>
+            <!--Hotel Infor-->
+            <!--Hotel Infor-->
+            <Data Key="RT_RoomCount_Name" Value="ST"/>
+            <Data Key="RT_RoomPrice_Name" Value="DR"/>
+            <Data Key="RT_Normal_Price" Value="198"/>
+            <Data Key="RT_Normal" Value="非会员"/>
+            <Data Key="RT_NormalMember_Price" Value="168"/>
+            <Data Key ="Hour1Price" Value="50"/>
+            <Data Key ="RoomcountsActual" Value="5"/>
+            <!--SMS Message-->
+            <Data Key ="smsMobile" Value="13641709268"/>
+            <!--Order-->
+            <Data Key ="WechatPromotionRoomType" Value="TR"/>
+            <Data Key ="WechatPromotionRoomTypeName" Value="特价房"/>
+            <Data Key ="WechatPromotionPrice" Value="268"/>
+            <Data Key ="WechatCanlendarId" Value="468020861992961"/>
+            <!--CRM-->
+            <Data Key ="WechatMobileNotRegistered" Value="13074747474"/>
+            <Data Key ="WechatIdNoNotRegistered" Value="532300197305122898"/>
+            <Data Key ="WechatIdTypeNotRegistered" Value="C01"/>
+            <Data Key ="WechatEmailNotRegistered" Value="532300197305122898@yy.com"/>
+            <Data Key ="UpgradeWayWithCash" Value="D"/>
+            <Data Key ="CreatorName" Value="superadmin"/>
+        </Module>
+        <Module name ="CouponData">
+            <Data Key="TemplateId" Value="660263405174785"/>
+            <Data Key="CouponDiscount" Value="20"/>
+        </Module>
+        <Module name ="CashBill">
+            <Data Key="MemberBillId" Value="1"/>
+            <Data Key="MemberValueConfigId" Value="156"/>
+        </Module>
+    </Environment>
+    <Environment name ="Release">
+        <Module name ="CommonData">
+            <Data Key="OrgId" Value="337949173530625"/>
+            <Data Key="OwnerId" Value="20150201"/>
+            <Data Key="OrgNO" Value="0x6000"/>
+            <Data Key="OrgName" Value="别样红西子国际店"/>
+            <!--PMS Data-->
+            <!--PMS AR account Data-->
+            <Data Key="ArAccountName" Value="中国石化上海分公司信用账户"/>
+            <Data Key="CompanyId" Value="337958354862081"/>
+            <!--PMS check in Data-->
+            <Data Key="CustomerName" Value="卫清怡"/>
+            <Data Key="CustomerMobile" Value="13000019880"/>
+            <Data Key="CustomerIdNumber" Value="532628197907137256"/>
+            <Data Key="CheckInRoomType" Value="DT"/>
+            <Data Key="CheckInRoomTypeName" Value="DT-DT"/>
+            <Data Key="CheckInActualPrice" Value="256"/>
+            <Data Key="CheckInOrignPrice" Value="256"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C01"/>
+            <!-- Member infor-->
+            <Data Key ="MemberId" Value="001819326"/>
+            <Data Key ="MemberMobile" Value="13000019880"/>
+            <Data Key ="MemberPassword" Value="123456"/>
+            <Data Key ="MemberIDType" Value="C01"/>
+            <Data Key ="CardNo" Value="532628197907137256"/>
+            <Data Key ="Level" Value="B"/>
+            <Data Key ="Gender" Value="1"/>
+            <Data Key ="MemberCardId" Value="001BZ0MG9Z00A"/>
+            <!--Channel Infor-->
+            <Data Key ="Channel" Value="Web"/>
+            <!--AR Contractor -->
+            <Data Key ="ARContractor" Value="中国石油上海分公司"/>
+            <Data Key ="ARContractorType" Value="Contractor"/>
+            <!--Agent Contractor -->
+            <Data Key ="AgentContractor" Value="上海携程国际有限公司"/>
+            <Data Key ="AgentContractorType" Value="Agent"/>
+        </Module>
+        <Module name ="OrderData">
+            <!-- Order-->
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="178"/>
+            <Data Key="OrignPrice" Value="178"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <Data Key ="PrePaymentChange" Value="None"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="001819326"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="DT"/>
+            <Data Key="CheckInRoomTypeName" Value="DT-DT"/>
+            <Data Key="CheckInActualPrice" Value="256"/>
+            <Data Key="CheckInOrignPrice" Value="256"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="532628197907137256"/>
+            <!--Change Stay-->
+            <Data Key ="ExtendStayReason" Value="接口自动化续住"/>
+            <Data Key ="UnderStayReason" Value="接口自动化提前离店"/>
+            <Data Key ="CheckoutReason" Value="接口自动化当日离店"/>
+            <!--Hotel-->
+            <Data Key ="CleanScore" Value="2"/>
+            <Data Key ="FacilityScore" Value="3"/>
+            <Data Key ="ServiceScore" Value="4"/>
+            <Data Key ="RoomRemark" Value="接口自动化房间备注"/>
+            <Data Key ="Hour1Price" Value="50"/>
+            <Data Key ="GoodsIds" Value="469355382276102"/>
+            <Data Key ="cliqueGoodsIds" Value="584167976796161"/>
+            <Data Key ="orgGoodsIdsPrice" Value="22.00"/>
+            <Data Key ="cliqueGoodsIdsPrice" Value="45.00"/>
+
+        </Module>
+        <Module name ="CheckInData">
+            <!-- CheckIn search-->
+            <Data Key="CustomerNameNoExist" Value="No EXIST"/>
+            <Data Key="CustomerIdNumberNoExist" Value="12345679"/>
+            <Data Key="CustomerRoomNumberNoExist" Value="9999"/>
+        </Module>
+        <Module name ="ArBillData">
+            <!-- Add new ArAccount, the 'Skip' value indicate if we need to add the ar account -->
+            <Data Key="Skip" Value="True"/>
+            <!-- Add new ArAccount -->
+            <Data Key="ArAccountType" Value="Credit"/>
+            <Data Key="Ceiling" Value="12000"/>
+            <Data Key="VerfiyTermInDay" Value="60"/>
+            <Data Key="AcceptNegativeDeposit" Value="true"/>
+            <Data Key="CompanyId" Value="337958354862081"/>
+            <!-- Add new AR item-->
+            <Data Key="ArAccountId" Value="337959055310849"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="198"/>
+            <!-- Cancel AR-->
+            <Data Key="CancelMemo" Value="公测接口取消AR帐"/>
+        </Module>
+        <Module name ="BillData">
+            <!-- Add new AR Bill-->
+            <Data Key="ARSubItemType" Value="C9100"/>
+            <Data Key="IsDeposit" Value="false"/>
+            <Data Key="Memo" Value="公测接口测试"/>
+            <Data Key="Amount" Value="250"/>
+            <!-- Cash Bill-->
+            <Data Key="CashSubItemType" Value="C9110"/>
+            <Data Key="CashMemo" Value="人民币押金,接口自动化"/>
+            <!-- Bank Bill-->
+            <Data Key="BankSubItemType" Value="C9120"/>
+            <Data Key="BankMemo" Value="银行入账,接口自动化"/>
+            <Data Key="BankKey" Value="中国人民银行"/>
+            <Data Key="BankCardNumber" Value="6228480402637874213"/>
+            <!-- Member Value Bill-->
+            <Data Key="MemberValueSubItemType" Value="C9130"/>
+            <Data Key="MemberValueMemo" Value="储值卡入账,接口自动化"/>
+            <!-- Check Bill-->
+            <Data Key="CheckSubItemType" Value="C9160"/>
+            <Data Key="CheckMemo" Value="支票入账,接口自动化"/>
+            <Data Key="CheckBankKey" Value="中国人民银行"/>
+            <Data Key="CheckNO" Value="04159226"/>
+            <!-- Cash return Bill-->
+            <Data Key="CashReturnSubItemType" Value="C9111"/>
+            <Data Key="CashReturnMemo" Value="人民币现金退款,接口自动化"/>
+            <!-- Room Fee Adjustment Bill-->
+            <Data Key="AdjustRoomFeeSubItemType" Value="D1001"/>
+            <Data Key="AdjustRoomFeeMemo" Value="房费调整,接口自动化"/>
+            <!-- Fee Violate Agreement Bill-->
+            <Data Key="FeeViolateAgreementSubItemType" Value="D1003"/>
+            <Data Key="FeeViolateAgreementMemo" Value="房费违约金，接口自动化"/>
+            <!-- Fee Phone Bill-->
+            <Data Key="FeePhoneSubItemType" Value="D2000"/>
+            <Data Key="FeePhoneMemo" Value="电话费，接口自动化"/>
+            <!-- Washing Bill-->
+            <Data Key="FeeWashingSubItemType" Value="D4000"/>
+            <Data Key="FeeWashingMemo" Value="洗衣费，接口自动化"/>
+            <!-- Compensation Bill-->
+            <Data Key="FeeCompensationSubItemType" Value="D5000"/>
+            <Data Key="FeeCompensationMemo" Value="赔偿费，接口自动化"/>
+            <!-- Commercial Center Bill-->
+            <Data Key="FeeCommercialCenterSubItemType" Value="D6000"/>
+            <Data Key="FeeCommercialCenterMemo" Value="商务中心费，接口自动化"/>
+            <!-- Smallware Bill-->
+            <Data Key="SmallwareSubItemType" Value="D6500"/>
+            <Data Key="SmallwareMemo" Value="小商品费用，接口自动化"/>
+            <!-- Member Card Bill-->
+            <Data Key="MemberCardSubItemType" Value="D7500"/>
+            <Data Key="MemberCardMemo" Value="会员卡费用，接口自动化"/>
+            <!-- Breakfast Bill-->
+            <Data Key="BreakfastSubItemType" Value="D6110"/>
+            <Data Key="BreakfastMemo" Value="早餐费用，接口自动化"/>
+            <!-- Miscellaneous Bill-->
+            <Data Key="MiscellaneousSubItemType" Value="D8000"/>
+            <Data Key="MiscellaneousMemo" Value="杂项费用，接口自动化"/>
+            <!-- Online pay Bill-->
+            <Data Key="OnlinePay" Value="WeChat"/>
+            <!-- Online pay Bill-->
+            <Data Key="VoucherSubItemType" Value="C9200"/>
+            <Data Key="VoucherMemo" Value="抵用券，接口自动化"/>
+        </Module>
+        <Module name ="BusinessConfigData">
+            <Data Key="AutoNoShowSwitch" Value="AutoNoShowSwitch"/>
+            <Data Key="SurchargeBufferTimeSpan" Value="SurchargeBufferTimeSpan"/>
+            <Data Key="DepositReceiptConfig" Value="DepositReceiptConfig"/>
+            <Data Key="SmallWareWithRepertory" Value="SmallWareWithRepertory"/>
+            <Data Key="PayCreditTypes" Value="PayCreditTypes"/>
+            <Data Key="CashingBillDebitTypes" Value="CashingBillDebitTypes"/>
+            <!-- owner category -->
+            <Data Key="BusinessLogic" Value="BusinessLogic"/>
+            <Data Key="HotelType" Value="HotelType"/>
+            <Data Key="OwnerCreditTypes" Value="OwnerCreditTypes"/>
+            <Data Key="OwnerDebitTypes" Value="OwnerDebitTypes"/>
+            <!-- Org category -->
+            <Data Key="OrgCreditTypes" Value="OrgCreditTypes"/>
+            <Data Key="OrgDebitTypes" Value="OrgDebitTypes"/>
+            <Data Key="Channel" Value="Channel"/>
+            <Data Key="HourSurcharge" Value="HourSurcharge"/>
+        </Module>
+        <Module name ="ConfigureData">
+            <Data Key="Skip" Value="True"/>
+            <Data Key="UserName" Value="王晓"/>
+        </Module>
+        <Module name ="ItemData">
+            <Data Key="ItemName" Value="接送服务"/>
+            <Data Key="ItemDescription" Value="旅客接送服务"/>
+        </Module>
+        <Module name ="LodgmentData">
+            <!-- Order-->
+            <Data Key="RoomType" Value="DR"/>
+            <Data Key="ActualPrice" Value="248"/>
+            <Data Key="OrignPrice" Value="248"/>
+            <Data Key ="OrderAmount" Value="1"/>
+            <Data Key ="PrePayment" Value="Full"/>
+            <!-- Member Order-->
+            <Data Key ="MemberId" Value="001819326"/>
+            <Data Key ="MemberCardId" Value="001BZ0MG9Z00A"/>
+            <!-- Order Cacel-->
+            <Data Key ="CancelReason" Value="No money, no request!"/>
+            <!--Check In-->
+            <Data Key="CheckInRoomType" Value="DT"/>
+            <Data Key="CheckInRoomTypeName" Value="DT-DT"/>
+            <Data Key="CheckInActualPrice" Value="256"/>
+            <Data Key="CheckInOrignPrice" Value="256"/>
+            <Data Key ="CheckInOrderAmount" Value="1"/>
+            <Data Key ="CheckInPrePayment" Value="Full"/>
+            <Data Key ="CheckInCardType" Value="C02"/>
+            <Data Key ="CheckInCardNo" Value="532628197907137256"/>
+        </Module>
+        <Module name ="MessageData">
+            <Data Key="AuthorId" Value="superadmin"/>
+            <Data Key="AuthorName" Value="超级管理员"/>
+            <Data Key="MessageFormat" Value="Text"/>
+            <Data Key="MessageTypeNotice" Value="Notice"/>
+            <Data Key="MessageTypeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeCheckoutRemind" Value="CheckoutRemind"/>
+            <Data Key="MessageTypeWeChat" Value="WeChat"/>
+            <Data Key="MessageTypeWeChatReply" Value="WeChatReply"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddOrderNotice"/>
+            <Data Key="MessageTypeNoticeAddCheckinNotice" Value="AddCheckinNotice"/>
+            <Data Key="MessageTypeNoticeCheckoutNotice" Value="CheckoutNotice"/>
+            <Data Key="PushMessageToPmsFrontendNotice" Value="PushMessageToPmsFrontendNotice"/>
+        </Module>
+        <Module name ="SubscriptionData">
+        </Module>
+        <Module name ="TelephonePhoneData">
+        </Module>
+        <Module name ="SalesData">
+            <Data Key="PromotionRoom" Value ="ST" />
+            <Data Key="PromotionPrice" Value ="344" />
+        </Module>
+        <Module name ="SecurityData">
+            <Data Key="UserName" Value="superadmin"/>
+            <Data Key="Password" Value="beyondhost2017!"/>
+        </Module>
+        <Module name ="StatisticsData">
+            <Data Key="Channel" Value="Web"/>
+        </Module>
+        <Module name ="CrmData">
+            <Data Key="UpgradeWay" Value="C"/>
+            <Data Key ="OldLevel" Value="B"/>
+            <Data Key="UpgradeChannel" Value="A"/>
+            <Data Key="NewLevel" Value="I"/>
+            <Data Key="ModifyBy" Value="superadmin"/>
+            <Data Key="UpgradeChineseName" Value="金卡"/>
+        </Module>
+        <Module name ="MiscellaneousData">
+            <Data Key="FeePhoneNumber" Value="13065659898"/>
+            <Data Key="Fee" Value="15"/>
+            <Data Key="Debit" Value="D2002"/>
+        </Module>
+        <Module name ="WeChatData">
+            <Data Key="Wechat" Value="Wechat"/>
+            <Data Key="WechatWelcomes" Value="Welcomes"/>
+            <Data Key="MemberLevel" Value="MemberLevel"/>
+            <Data Key="WeChatOnlineCredit" Value="C9240"/>
+            <Data Key="WeChatOpenId" Value="oF6ruszbjML3LyoR8Lu30yTIJnh1"/>
+            <Data Key="WeChatBankType" Value="CFT"/>
+            <!--Online Payment Config-->
+            <Data Key="OnlinePaymentConfig" Value="OnlinePaymentConfig"/>
+            <Data Key="WeChatToken" Value="WeChatToken"/>
+            <Data Key="WeChatPartnerId" Value="WeChatPartnerId"/>
+            <Data Key="WeChatPartnerKey" Value="WeChatPartnerKey"/>
+            <Data Key="WeChatAppId" Value="WeChatAppId"/>
+            <Data Key="WeChatAppSecret" Value="WeChatAppSecret"/>
+            <Data Key="WeChatPaySignKey" Value="WeChatPaySignKey"/>
+            <Data Key="WeChatCertFilePath" Value="WeChatCertFilePath"/>
+            <Data Key="WeChatVersion" Value="WeChatVersion"/>
+            <Data Key="WeChatAgentAppId" Value="WeChatAgentAppId"/>
+            <Data Key="WeChatSubPartnerId" Value="WeChatSubPartnerId"/>
+            <!--Ali Payment Config-->
+            <Data Key="AlipayPartnerId" Value="AlipayPartnerId"/>
+            <Data Key="AlipayPartnerKey" Value="AlipayPartnerKey"/>
+            <Data Key="AlipayAccount" Value="AlipayAccount"/>
+            <!--Hotel Infor-->
+            <Data Key="RT_RoomCount_Name" Value="ST"/>
+            <Data Key="RT_RoomPrice_Name" Value="DR"/>
+            <Data Key="RT_Normal_Price" Value="198"/>
+            <Data Key="RT_Normal" Value="非会员"/>
+            <Data Key="RT_NormalMember_Price" Value="168"/>
+            <Data Key ="Hour1Price" Value="50"/>
+            <Data Key ="RoomcountsActual" Value="15"/>
+            <!--SMS Message-->
+            <Data Key ="smsMobile" Value="13641709268"/>
+            <!--Order-->
+            <Data Key ="WechatPromotionRoomType" Value="DW"/>
+            <Data Key ="WechatPromotionRoomTypeName" Value="DW-DW"/>
+            <Data Key ="WechatPromotionPrice" Value="268"/>
+            <!--Order-->
+            <Data Key ="WechatCanlendarId" Value="428172540018689"/>
+            <!--CRM-->
+            <Data Key ="WechatMobileNotRegistered" Value="13074747474"/>
+            <Data Key ="WechatIdNoNotRegistered" Value="532300197305122898"/>
+            <Data Key ="WechatIdTypeNotRegistered" Value="C01"/>
+            <Data Key ="WechatEmailNotRegistered" Value="532300197305122898@yy.com"/>
+            <Data Key ="UpgradeMemberId" Value="107600359"/>
+            <Data Key ="UpgradeWayWithCash" Value="D"/>
+            <Data Key ="CreatorName" Value="superadmin"/>
+        </Module>
+        <Module name ="Coupon">
+            <Data Key="TemplateId" Value="455435462033409"/>
+            <Data Key="SerialNo" Value="4710753416423903906"/>
+        </Module>
+        <Module name ="CashBill">
+            <Data Key="MemberBillId" Value="373495843913729"/>
+            <Data Key="MemberValueConfigId" Value="590"/>
+        </Module>
+    </Environment>
+</Run>
